@@ -1,0 +1,23 @@
+.imgbg{
+    height: 70vh;
+    width: 100%;
+    background-image: url("../assets/BannerHome.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
+    font-size: 5vw;
+    color: white;
+}
+
+.h2 {
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: white;
+}
