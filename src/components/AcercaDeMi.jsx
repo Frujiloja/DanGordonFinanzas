@@ -35,7 +35,7 @@ const AcercaDeMi = () => {
           <img className={styles.img} src={dan} alt="foto dan" />
         </div>
       </div>
-      <img
+      {/* <img
         src={arrow}
         alt="arrow pic"
         className={styles.iconarrow}
@@ -44,7 +44,7 @@ const AcercaDeMi = () => {
             .getElementById("home")
             .scrollIntoView({ behavior: "smooth" })
         }
-      />
+      /> */}
     </div>
   );
 };

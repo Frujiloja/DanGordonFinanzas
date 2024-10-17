@@ -17,30 +17,29 @@ const Home = () => {
             Finanzas.
           </p>
           <a href="#clases" className={styles.btn}>
-    Saber Más
-</a>
+            Saber Más
+          </a>
         </div>
         <div className={styles.box}>
-        <h3 className={styles.h3}>Economía y Contabilidad
-        </h3>
+          <h3 className={styles.h3}>Economía y Contabilidad</h3>
           <p className={styles.p}>
             {" "}
             Introducción a la Economía e Introducción a la Contabilidad
           </p>
           <a href="#clases" className={styles.btn}>
-    Saber Más
-</a>
+            Saber Más
+          </a>
         </div>
         <div className={styles.box}>
-        <h3 className={styles.h3}>Matemática y Estadística
-        </h3>
+          <h3 className={styles.h3}>Matemática y Estadística</h3>
           <p className={styles.p}>
             {" "}
-            Matemática, Introducción a la Estadística y Asesoría en análisis económico-financiero para tesis
+            Matemática, Introducción a la Estadística y Asesoría en análisis
+            económico-financiero para tesis
           </p>
           <a href="#clases" className={styles.btn}>
-    Saber Más
-</a>
+            Saber Más
+          </a>
         </div>
       </div>
     </div>

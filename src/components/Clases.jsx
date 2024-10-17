@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./Clases.module.css";
+import arrow from "../assets/arrow.png";
+import FlipBox from "./Flipbox";
+
 
 const Clases = () => {
   return (
@@ -29,14 +32,87 @@ const Clases = () => {
         </div>
         <div className={styles.text}>
           <p className={styles.p}>
-            Las clases pueden ser grupales o individuales. <br /> Modalidad Online, utilizo la
-            plataforma Google Meet. <br /> Utilizo la notebook compartiendo pantalla,
-            generalmente uso Excel o Word para resolver ejercicios. <br /> Para ver la
-            teoría utilizo un Ipad con un lapiz inteligente mediante el cual
-            puedo escribir y dibujar cuados y mapas conceptuales, como si fuera
-            un papel. <br /> Todo el material que hayamos trabajado se envia luego al
-            alumno via whatsapp/mail.
+            Las clases pueden ser grupales o individuales. <br /> Modalidad
+            Online, utilizo la plataforma Google Meet. <br /> Utilizo la
+            notebook compartiendo pantalla, generalmente uso Excel o Word para
+            resolver ejercicios. <br /> Para ver la teoría utilizo un Ipad con
+            un lapiz inteligente mediante el cual puedo escribir y dibujar
+            cuados y mapas conceptuales, como si fuera un papel. <br /> Todo el
+            material que hayamos trabajado se envia luego al alumno via
+            whatsapp/mail.
           </p>
+        </div>
+        <img
+        src={arrow}
+        alt="arrow pic"
+        className={styles.iconarrow}
+      />
+        <div className={styles.clasesytemas}>
+          <h1 className={styles.h1}>Materias y Temas</h1>
+          <h2 className={styles.h2}>
+            Este es un listado de las materias y temas que suelo dictar.
+            Igualmente, no dudes en consultar por otras materias y te diré
+            honestamente si creo que puedo ayudarte con eso.
+          </h2>
+          <div className={styles.materias}>
+            <FlipBox></FlipBox>
+            {/* <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div>
+            <div className={styles.box}>
+              <h3 className={styles.h3}>Economía y Contabilidad</h3>
+              <p className={styles.p}>
+                {" "}
+                Introducción a la Economía e Introducción a la Contabilidad
+              </p>
+            </div> */}
+          </div>
         </div>
       </div>
     </div>
