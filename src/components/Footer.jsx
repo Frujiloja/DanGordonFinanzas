@@ -17,8 +17,8 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <p className={styles.text}>
-          <a href="mailto:dangordon@gmail.com" className={styles.contact}>
-            dangordon@gmail.com
+          <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>
+          dangordon5@hotmail.com
           </a>{" "}
           |{" "}
           <a
@@ -29,7 +29,7 @@ const Footer = () => {
             11 4079-3729
           </a>{" "}
           |
-          <a href="mailto:dangordon@gmail.com" className={styles.contact}>
+          <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>
             Contacto
           </a>{" "}
           |

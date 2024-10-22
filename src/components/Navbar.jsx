@@ -23,6 +23,11 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a className={styles.a} href="#faq">
+            FAQ
+          </a>
+        </li>
+        <li>
           <a className={styles.a} href="#contact">
             Contacto
           </a>

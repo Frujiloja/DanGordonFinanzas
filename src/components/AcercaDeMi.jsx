@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./AcercaDeMi.module.css";
 import dan from "../assets/dan2.png";
-import arrow from "../assets/arrow.png";
+import res1 from "../assets/res1.jpg";
+import res2 from "../assets/res2.jpg";
+import res3 from "../assets/res3.jpg";
 
 const AcercaDeMi = () => {
   return (
@@ -34,6 +36,11 @@ const AcercaDeMi = () => {
         <div>
           <img className={styles.img} src={dan} alt="foto dan" />
         </div>
+      </div>
+      <div className={styles.res_container}>
+      <img src={res1} className={styles.res} alt="res1" />
+      <img src={res2} className={styles.res} alt="res2" />
+      <img src={res3} className={styles.res} alt="res3" />
       </div>
       {/* <img
         src={arrow}

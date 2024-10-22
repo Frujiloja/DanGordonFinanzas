@@ -39,14 +39,14 @@ const Contacto = () => {
 
   return (
     <div id="contact" className={styles.contacto_container}>
-      <h1 className={styles.titulo}>Contactanos</h1>
+      <h1 className={styles.titulo}>Contactame</h1>
       <br />
       <img src={logo} alt="logo" className={styles.logo} />
+      <br />
       <h1 className={styles.h1}>
-        Pelach Propiedades <br />
-        Las Heras 3780 - C.A.B.A. <br />
-        Tel. 4801-2877 / 11-5228-0786 <br />
-        info@pelachpropiedades.com.ar
+        Dan Gordon <br />
+        Tel. 1140793729 <br />
+        dangordon5@hotmail.com
       </h1>
       <div className={styles.div_container}>
         <form onSubmit={handleSubmit} className={styles.contact_form}>
