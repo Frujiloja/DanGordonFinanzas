@@ -3,7 +3,6 @@ import styles from "./Clases.module.css";
 import arrow from "../assets/arrow.png";
 import FlipBoxGrid from "./Flipbox";
 
-
 const Clases = () => {
   return (
     <div id="clases" className={styles.clases_div}>
@@ -42,11 +41,7 @@ const Clases = () => {
             whatsapp/mail.
           </p>
         </div>
-        <img
-        src={arrow}
-        alt="arrow pic"
-        className={styles.iconarrow}
-      />
+        <img src={arrow} alt="arrow pic" className={styles.iconarrow} />
         <div className={styles.clasesytemas}>
           <h1 className={styles.h1}>Materias y Temas</h1>
           <h2 className={styles.h2}>

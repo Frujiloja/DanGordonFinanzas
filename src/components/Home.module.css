@@ -37,12 +37,12 @@
 }
 
 .h3 {
-  font-size: 1.5rem;
+  font-size: clamp(12px, 2vw, 15px);
   margin-bottom: 0.5rem;
 }
 
 .p {
-  font-size: 1rem;
+  font-size: clamp(12px, 1vw, 15px);
   color: gray;
   margin-bottom: 0.8rem;
 }
@@ -55,7 +55,7 @@
   border-radius: 5px;
   margin: 0 10px; /* Espacio entre las cajas */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -94,6 +94,21 @@
   transform: scale(0.98); /* Leve reducción para un efecto de clic */
 }
 
+@media (max-width: 835px) {
+  .btn {
+    font-size: 10px;
+  }
+
+  .boxes {
+    width: 80vw;
+  }
+
+  .box {
+    height: 35vh;
+    justify-content: space-between;
+  }
+}
+
 
 @media (max-width: 480px) {
   
@@ -113,6 +128,8 @@
     height: 10vh;
     padding: 0.5vh;
     width: 250px;
+    justify-content: space-around;
+
   }
 
   .boxes {

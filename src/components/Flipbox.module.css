@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual ancho */
     gap: 20px; /* Espacio entre las cards */
-    padding: 20px;
 }
 
 .flipBox {

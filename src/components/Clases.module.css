@@ -26,13 +26,13 @@
 
 .opciones {
     width: 80%;
-    height: 25vh;
+    height: auto;
     margin-top: 2rem;
     display: flex;
 }
 
 .line {
-    height: 100%;
+    height: auto;
     width: 1px;
     background-color: rgba(37, 24, 101, 0.681);
 }
@@ -47,7 +47,7 @@
 }
 
 .h22 {
-    font-size: 1vw;
+    font-size: clamp(10px, 2vh, 20px);
     font-weight: 200;
 }
 
@@ -104,7 +104,7 @@
     border: 1px solid rgb(26, 26, 125);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
 
     .line{
         height: auto;
@@ -144,6 +144,7 @@
 
     .clasesytemas{
         margin-top: 0rem;
+        width: 90%;
     }
-    
+   
 }
