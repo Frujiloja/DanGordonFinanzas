@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Clases.module.css";
 import arrow from "../assets/arrow.png";
-import FlipBox from "./Flipbox";
+import FlipBoxGrid from "./Flipbox";
 
 
 const Clases = () => {
@@ -55,7 +55,7 @@ const Clases = () => {
             honestamente si creo que puedo ayudarte con eso.
           </h2>
           <div className={styles.materias}>
-            <FlipBox></FlipBox>
+            <FlipBoxGrid></FlipBoxGrid>
             {/* <div className={styles.box}>
               <h3 className={styles.h3}>Economía y Contabilidad</h3>
               <p className={styles.p}>

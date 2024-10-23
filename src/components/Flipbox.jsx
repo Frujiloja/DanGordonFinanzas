@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./FlipBox.module.css";
+import styles from "./Flipbox.module.css";
 
 const FlipBox = ({ title, backContent }) => {
   const [isFlipped, setIsFlipped] = useState(false);
