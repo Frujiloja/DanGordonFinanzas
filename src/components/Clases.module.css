@@ -107,7 +107,7 @@
 @media (max-width: 480px) {
 
     .line{
-        height: 110%;
+        height: auto;
     }
 
     .h2 {
@@ -118,7 +118,7 @@
 
     .h1 {
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .text {
@@ -130,6 +130,7 @@
     .opciones {
         width: 90vw;
         margin-top: 0;
+        height: auto;
     }
 
     .h33 {

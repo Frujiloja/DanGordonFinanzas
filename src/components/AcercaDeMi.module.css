@@ -72,7 +72,8 @@
   }
 
   .acerca_container {
-    margin-top: 5rem;
+    height: auto;
+    margin-top: 15vh;
   }
 
   .res {
