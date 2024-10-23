@@ -43,11 +43,6 @@ const Contacto = () => {
       <br />
       <img src={logo} alt="logo" className={styles.logo} />
       <br />
-      <h1 className={styles.h1}>
-        Dan Gordon <br />
-        Tel. 1140793729 <br />
-        dangordon5@hotmail.com
-      </h1>
       <div className={styles.div_container}>
         <form onSubmit={handleSubmit} className={styles.contact_form}>
           <div className={styles.form_group}>

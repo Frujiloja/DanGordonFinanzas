@@ -11,8 +11,7 @@ const AcercaDeMi = () => {
       <div className={styles.acerca}>
         <div>
           <h1 className={styles.h1}>Hola, soy Dan</h1>
-          <br />
-          <p>
+          <p className={styles.p}>
             Docente de ciencias económicas, especializado en Finanzas. Mi
             objetivo es ayudar a estudiantes universitarios y aquellos que
             buscan profundizar en su conocimiento sobre el mundo de las

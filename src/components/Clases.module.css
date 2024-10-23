@@ -16,11 +16,11 @@
 }
 
 .h1 {
-    font-size: 3vw;
+    font-size: clamp(30px, 3vw, 100px); /* 16px es el tamaño mínimo, 5vw es el tamaño adaptable, 40px es el tamaño máximo */
 }
 
 .h2 {
-    font-size: 1.5vw;
+    font-size: clamp(20px, 1.5vw, 100px); /* 16px es el tamaño mínimo, 5vw es el tamaño adaptable, 40px es el tamaño máximo */
     font-weight: 200;
 }
 
@@ -102,4 +102,47 @@
     padding: 1rem;
     margin: 1rem;
     border: 1px solid rgb(26, 26, 125);
+}
+
+@media (max-width: 480px) {
+
+    .line{
+        height: 110%;
+    }
+
+    .h2 {
+        padding: 1rem;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .h1 {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .text {
+        width: 80vw;
+        font-size: 0.8rem;
+        margin-top: 4rem;
+    }
+
+    .opciones {
+        width: 90vw;
+        margin-top: 0;
+    }
+
+    .h33 {
+        font-size: 1rem;
+    }
+
+    .h22 {
+        font-size: 0.8rem;
+        font-weight: 350;
+    }
+
+    .clasesytemas{
+        margin-top: 0rem;
+    }
+    
 }

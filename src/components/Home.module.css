@@ -1,81 +1,131 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Opcional: un pequeño desplazamiento hacia abajo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Vuelve a su posición original */
+    }
+  }
+
+
 .imgbg {
-    height: 70vh;
-    width: 100%;
-    background-image: url("../assets/BannerHome.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative; /* Para posicionar la .box de forma relativa a .imgbg */
+  height: 70vh;
+  width: 100%;
+  background-image: url("../assets/BannerHome.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; /* Para posicionar la .box de forma relativa a .imgbg */
 }
 
 .h1 {
-    font-size: 5vw;
-    color: white;
+  font-size: clamp(40px, 8vw, 100px); /* 16px es el tamaño mínimo, 5vw es el tamaño adaptable, 40px es el tamaño máximo */
+  color: white;
 }
 
 .h2 {
-    font-size: 1.5vw;
-    font-weight: 200;
-    color: white;
+  font-size: clamp(20px, 2vw, 100px); /* 16px es el tamaño mínimo, 5vw es el tamaño adaptable, 40px es el tamaño máximo */
+  font-weight: 200;
+  color: white;
+  text-align: center;
 }
 
 .h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .p {
-    font-size: 1rem;
-    color: gray;
-    margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 0.8rem;
 }
 
 .box {
-    background-color: white;
-    width: 350px;
-    height: 200px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil */
-    border-radius: 5px;
-    margin: 0 10px; /* Espacio entre las cajas */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 1rem;
+  background-color: white;
+  width: 350px;
+  height: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+  border-radius: 5px;
+  margin: 0 10px; /* Espacio entre las cajas */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .boxes {
-    display: flex; /* Para que las cajas se alineen una al lado de la otra */
-    justify-content: space-around; /* Centrar las cajas horizontalmente */
-    align-items: center; /* Alinear las cajas verticalmente */
-    width: 70vw;
-    position: absolute;
-    bottom: -140px; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
+  display: flex; /* Para que las cajas se alineen una al lado de la otra */
+  justify-content: space-around; /* Centrar las cajas horizontalmente */
+  align-items: center; /* Alinear las cajas verticalmente */
+  width: 70vw;
+  position: absolute;
+  bottom: -140px; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
+  animation: fadeIn 1s ease-in-out;
 }
 
 .btn {
-    background-color: #003366; /* Azul oscuro */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #003366; /* Azul oscuro */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #004080; /* Un tono más claro de azul para el efecto hover */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+  background-color: #004080; /* Un tono más claro de azul para el efecto hover */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
 }
 
 .btn:active {
-    background-color: #00264d; /* Azul más oscuro cuando se hace clic */
-    transform: scale(0.98); /* Leve reducción para un efecto de clic */
+  background-color: #00264d; /* Azul más oscuro cuando se hace clic */
+  transform: scale(0.98); /* Leve reducción para un efecto de clic */
+}
+
+
+@media (max-width: 480px) {
+  
+  .imgbg {
+    justify-content: flex-start;
+  }
+
+  .h1 {
+    margin-top: 10rem;
+  }
+
+  .p {
+    display: none;
+  }
+
+  .box {
+    height: 50px;
+    width: 250px;
+  }
+
+  .boxes {
+    bottom: 35px; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
+    width: 90vw;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .h3 {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 10px;
+  }
 }
