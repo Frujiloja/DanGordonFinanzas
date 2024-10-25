@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         <li>
           <a className={styles.a} href="#faq">
-            FAQ
+            Preguntas
           </a>
         </li>
         <li>

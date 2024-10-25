@@ -6,7 +6,7 @@ const Home = () => {
     <div id="home" className={styles.imgbg}>
       <h1 className={styles.h1}>Clases y Cursos</h1>
       <h2 className={styles.h2}>
-        Aprendé y disfrutá del mundo de las finanzas
+        Aprendé Finanzas de manera simple
       </h2>
       <div className={styles.boxes}>
         <div className={styles.box}>
@@ -35,7 +35,7 @@ const Home = () => {
           <p className={styles.p}>
             {" "}
             Matemática, Introducción a la Estadística y Asesoría en análisis
-            económico-financiero para tesis
+            económico-financiero
           </p>
           <a href="#clases" className={styles.btn}>
             Saber Más

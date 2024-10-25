@@ -39,7 +39,7 @@ const Contacto = () => {
 
   return (
     <div id="contact" className={styles.contacto_container}>
-      <h1 className={styles.titulo}>Contactame</h1>
+      <h1 className={styles.titulo}>Para mas información, completá el formulario</h1>
       <br />
       <img src={logo} alt="logo" className={styles.logo} />
       <br />
@@ -82,7 +82,7 @@ const Contacto = () => {
           </div>
 
           <div className={styles.form_group}>
-            <label>Comentarios</label>
+            <label>Consulta</label>
             <textarea
               name="comment"
               value={formData.comment}

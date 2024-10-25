@@ -26,30 +26,12 @@ const Footer = () => {
             target="_blank"
             href="https://api.whatsapp.com/send/?phone=5491140793729&text=Hola%2C+me+interesa+m%C3%A1s+informaci%C3%B3n+sobre+una+clase.&type=phone_number&app_absent=0"
           >
-            11 4079-3729
+            +54 9 1140793729
           </a>{" "}
           |
           <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>
             Contacto
           </a>{" "}
-          |
-          {/* <a
-            href="https://www.facebook.com/profile.php?id=100076130866630&locale=es_LA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            Facebook
-          </a>{" "}
-          | */}
-          <a
-            href="https://www.instagram.com/dangordon/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            Instagram
-          </a>
         </p>
       </div>
       <div className={styles.container}>
