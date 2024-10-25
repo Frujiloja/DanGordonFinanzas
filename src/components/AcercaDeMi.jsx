@@ -78,7 +78,7 @@ const AcercaDeMi = () => {
           <img src={res1} className={styles.res} alt="res1" />
         </div>
         <div className={styles.hv}>
-          <img src={res2} className={styles.res} alt="res2" />
+          <img src={res5} className={styles.res} alt="res5" />
         </div>
         <div className={styles.hv}>
           <img src={res3} className={styles.res} alt="res3" />
@@ -87,7 +87,7 @@ const AcercaDeMi = () => {
           <img src={res4} className={styles.res} alt="res4" />
         </div>
         <div className={styles.hv}>
-          <img src={res5} className={styles.res} alt="res5" />
+          <img src={res2} className={styles.res} alt="res2" />
         </div>
         <div className={styles.hv}>
           <img src={res6} className={styles.res} alt="res6" />
