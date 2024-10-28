@@ -4,6 +4,11 @@
   gap: 20px; /* Espacio entre las cards */
 }
 
+.p {
+  width: 90%;
+  font-size: 15px;
+}
+
 .flipBox {
   width: 350px;
   height: 250px; /* Ajusta la altura de la card */

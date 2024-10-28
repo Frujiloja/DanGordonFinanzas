@@ -26,7 +26,7 @@ const Footer = () => {
             target="_blank"
             href="https://api.whatsapp.com/send/?phone=5491140793729&text=Hola%2C+me+interesa+m%C3%A1s+informaci%C3%B3n+sobre+una+clase.&type=phone_number&app_absent=0"
           >
-            +54 9 1140793729
+            +5491140793729
           </a>{" "}
           |
           <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>

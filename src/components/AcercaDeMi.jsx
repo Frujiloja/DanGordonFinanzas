@@ -10,28 +10,38 @@ import res3 from "../assets/res3.jpg";
 import res4 from "../assets/res4.jpg";
 import res5 from "../assets/res5.jpg";
 import res6 from "../assets/res6.jpg";
+import png1 from "../assets/1.png";
+import png2 from "../assets/2.png";
 
 const AcercaDeMi = () => {
-
-  const settings = {
+  // Configuración para el slider de reseñas
+  const settingsResenas = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     arrows: true,
-    centerMode: false, // Habilita el modo centrado
     responsive: [
       {
         breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
+        settings: "unslick", // Desactiva este carrusel en pantallas pequeñas
       },
     ],
+  };
+
+  // Configuración para el slider de imágenes alternativo en pantallas pequeñas
+  const settingsAlternativo = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    arrows: true,
   };
 
   return (
@@ -67,13 +77,9 @@ const AcercaDeMi = () => {
           <img className={styles.img} src={dan} alt="foto dan" />
         </div>
       </div>
-      {/* <div className={styles.res_container}>
-        <img src={res1} className={styles.res} alt="res1" />
-        <img src={res2} className={styles.res} alt="res2" />
-        <img src={res3} className={styles.res} alt="res3" />
-      </div> */}
-      <br />
-      <Slider {...settings} className={styles.image}>
+
+      {/* Carrusel para reseñas (visible en pantallas grandes) */}
+      <Slider {...settingsResenas} className={styles.desktopSlider}>
         <div className={styles.hv}>
           <img src={res1} className={styles.res} alt="res1" />
         </div>
@@ -91,6 +97,16 @@ const AcercaDeMi = () => {
         </div>
         <div className={styles.hv}>
           <img src={res6} className={styles.res} alt="res6" />
+        </div>
+      </Slider>
+
+      {/* Carrusel alternativo (visible solo en pantallas pequeñas) */}
+      <Slider {...settingsAlternativo} className={styles.mobileSlider}>
+        <div className={styles.hv}>
+          <img src={png1} className={styles.res} alt="png1" />
+        </div>
+        <div className={styles.hv}>
+          <img src={png2} className={styles.res} alt="png2" />
         </div>
       </Slider>
     </div>

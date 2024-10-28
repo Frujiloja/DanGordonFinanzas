@@ -7,7 +7,7 @@ const Faq = () => {
   const faqs = [
     {
       question: "¿Das clases grupales?",
-      answer: "Sí, ofrezco clases grupales en las que se puede aprender junto con otros estudiantes. También se pueden coordinar clases individuales.",
+      answer: "Sí.",
     },
     {
       question: "¿Das clases presenciales?",
@@ -31,7 +31,7 @@ const Faq = () => {
     },
     {
       question: "¿Hay un número mínimo de clases que debo tomar?",
-      answer: "No hay un número mínimo de clases. Podés segun tus necesidades tomar las clases que necesites según tu disponibilidad y objetivos de aprendizaje.",
+      answer: "No.",
     },
     {
       question: "Quiero aprender por interés personal, ¿tengo que tener conocimientos previos?",
@@ -40,10 +40,6 @@ const Faq = () => {
     {
       question: "Quiero preparar una materia, ¿tengo que tener conocimientos previos?",
       answer: "No es necesario.",
-    },
-    {
-      question: "¿Tenés guías de ejercicios de las materias?",
-      answer: "En general sí, depende de la materia. De las materias que doy de UADE tengo todo. De otras universidades no siempre.",
     },
     {
       question: "¿Qué duración tienen las clases?",

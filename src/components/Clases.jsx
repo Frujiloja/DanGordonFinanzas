@@ -15,7 +15,7 @@ const Clases = () => {
           <div className={styles.apoyo}>
             <h1 className={styles.h33}>Apoyo universitario</h1>
             <h2 className={styles.h22}>
-              Trabajamos teoría y practica para prepararte para el examen.
+              Trabajamos teoría y práctica para prepararte para el examen.
             </h2>
           </div>
           <div className={styles.line}></div>
@@ -30,18 +30,18 @@ const Clases = () => {
         </div>
         <div className={styles.text}>
           <ul className={styles.p}>
-            <li>Las clases pueden ser individuales o grupales.</li>
-            <li>Modalidad Online, utilizo la plataforma Google Meet.</li>
-            <li>
+            <li className={styles.li}>Las clases pueden ser individuales o grupales.</li>
+            <li className={styles.li}>Modalidad Online, utilizo la plataforma Google Meet.</li>
+            <li className={styles.li}>
               Utilizo la notebook compartiendo pantalla, generalmente uso Excel
               o Word para resolver ejercicios.
             </li>
-            <li>
+            <li className={styles.li}>
               Para ver la teoría utilizo un Ipad con un lápiz inteligente
               mediante el cual puedo escribir y dibujar cuadros y mapas
               conceptuales, como si fuera un papel.
             </li>
-            <li>
+            <li className={styles.li}>
               Todo el material que hayamos trabajado se envía luego al alumno
               vía WhatsApp/mail.
             </li>

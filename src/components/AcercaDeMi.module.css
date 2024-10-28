@@ -1,13 +1,14 @@
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translateY(20px); /* Opcional: un pequeño desplazamiento hacia abajo */
+    opacity: 0;
+    transform: translateY(20px); /* Opcional: un pequeño desplazamiento hacia abajo */
   }
   to {
-      opacity: 1;
-      transform: translateY(0); /* Vuelve a su posición original */
+    opacity: 1;
+    transform: translateY(0); /* Vuelve a su posición original */
   }
 }
+
 
 .acerca_container {
   width: 100%;
@@ -20,6 +21,31 @@
   flex-direction: column;
 }
 
+.mobileSlider {
+  display: none;
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  align-items: center; /* Centra las imágenes verticalmente si es necesario */
+  height: auto;
+  width: 75%;
+  margin: 0 auto; /* Centra el carrusel en la página */
+  object-fit: cover;
+  border-radius: 5px;
+  gap: 1rem;
+}
+
+.desktopSlider {
+  display: block;
+  display: flex;
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  align-items: center; /* Centra las imágenes verticalmente si es necesario */
+  height: auto;
+  width: 75%;
+  margin: 0 auto; /* Centra el carrusel en la página */
+  object-fit: cover;
+  border-radius: 5px;
+  gap: 1rem;
+  margin-top: 1rem;
+}
 /* .res_container {
   width: 75%;
   display: flex;
@@ -82,6 +108,7 @@
 }
 
 @media (max-width: 800px) {
+
   .acerca {
     flex-direction: column;
     height: auto;
@@ -108,6 +135,14 @@
 
 @media (max-width: 480px) {
 
+  .desktopSlider {
+    display: none; /* Oculta el carrusel de reseñas */
+  }
+
+  .mobileSlider {
+    display: block; /* Muestra el carrusel alternativo */
+  }
+
   .res_container{
     width: 100%;
   }
@@ -128,11 +163,12 @@
   }
 
   .res {
-    width: 100%;
+    width: 96%;
   }
 
   .p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    text-align: center;
   }
 
   .img {
