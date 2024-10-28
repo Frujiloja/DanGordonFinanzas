@@ -56,12 +56,12 @@ const AcercaDeMi = () => {
             que buscan profundizar en su conocimiento sobre el mundo de las
             Finanzas, ofreciendo clases particulares personalizadas que se
             adaptan a sus necesidades individuales. <br />
-            <br /> Cuento con un título de grado como licenciado en finanzas,
+            <br /> Cuento con un título de grado como licenciado en Finanzas,
             egresado de la Universidad Argentina de la Empresa (UADE). Además,
             estoy finalizando mis estudios en la carrera de Economía, en la
             misma Universidad. <br />
             <br /> Me apasiona enseñar para brindar al alumno las herramientas
-            necesarias para aprender conceptos del área de Finanzas y economía.
+            necesarias para aprender conceptos del área de Finanzas y Economía.
             Mis clases están diseñadas para ser interactivas y dinámicas,
             buscando que el alumno pueda realmente entender los conceptos que
             trabajamos, tratando de aprender más que memorizar, lo que hace
