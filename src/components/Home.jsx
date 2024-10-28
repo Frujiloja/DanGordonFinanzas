@@ -34,7 +34,7 @@ const Home = () => {
           <h3 className={styles.h3}>Matemática y Estadística</h3>
           <p className={styles.p}>
             {" "}
-            Matemática, Introducción a la Estadística y Asesoría en análisis
+            Matemática, Introducción a la Estadística y Asesoría para tesis en análisis
             económico-financiero
           </p>
           <a href="#clases" className={styles.btn}>

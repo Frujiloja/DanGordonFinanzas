@@ -55,12 +55,12 @@
 } */
 
 .res {
-  width: 20vw; /* Asegura que la imagen ocupe todo el espacio del contenedor */
+  width: 23vw; /* Asegura que la imagen ocupe todo el espacio del contenedor */
   border-radius: 5px;
 }
 
 .hv {
-  margin-left: 2.3vw;
+  margin-left: 1vw;
 }
 
 .image {
