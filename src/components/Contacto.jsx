@@ -2,8 +2,7 @@ import styles from "./Contacto.module.css";
 import React, { useState } from "react";
 import logo from "../assets/Logo.png";
 // import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import emailjs from 'emailjs-com';
-
+import emailjs from "emailjs-com";
 
 const Contacto = () => {
   const position = [-34.572766, -58.421053]; // Coordenadas de Buenos Aires (ejemplo)
@@ -15,6 +14,8 @@ const Contacto = () => {
     comment: "",
   });
 
+  const destinatario = "dangordon5@hotmail.com";
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -23,23 +24,41 @@ const Contacto = () => {
   };
 
   const handleSubmit = (e) => {
+
     e.preventDefault();
-    emailjs.send('service_fcnnvtf', 'template_bwaptb9', formData, '1sBpeKaGLYovogvqY')
-    .then((result) => {
-      alert('Correo enviado con éxito!');
-      console.log(result.text);
-      // Limpia el formulario
-      setFormData({ name: '', email: '', message: '' });
-    }, (error) => {
-      alert('Hubo un problema al enviar el correo. Intenta de nuevo.');
-      console.log(error.text);
-    });
-    console.log("Formulario enviado", formData);
+
+    const emailData = {
+      ...formData,
+      to_email: destinatario,
+    };
+
+    emailjs
+      .send(
+        "service_fcnnvtf",
+        "template_bwaptb9",
+        emailData,
+        "1sBpeKaGLYovogvqY"
+      )
+      .then(
+        (result) => {
+          alert("Correo enviado con éxito!");
+          console.log(result.text);
+          // Limpia el formulario
+          setFormData({ name: '', phone: '', email: '', comment: '' });
+        },
+        (error) => {
+          alert("Hubo un problema al enviar el correo. Intenta de nuevo.");
+          console.log(error.text);
+        }
+      );
+    console.log("Formulario enviado", emailData);
   };
 
   return (
     <div id="contact" className={styles.contacto_container}>
-      <h1 className={styles.titulo}>Para mas información, completá el formulario</h1>
+      <h1 className={styles.titulo}>
+        Para mas información, completá el formulario
+      </h1>
       <br />
       <img src={logo} alt="logo" className={styles.logo} />
       <br />
