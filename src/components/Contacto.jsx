@@ -5,8 +5,6 @@ import logo from "../assets/Logo.png";
 import emailjs from "emailjs-com";
 
 const Contacto = () => {
-  const position = [-34.572766, -58.421053]; // Coordenadas de Buenos Aires (ejemplo)
-
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -24,7 +22,6 @@ const Contacto = () => {
   };
 
   const handleSubmit = (e) => {
-
     e.preventDefault();
 
     const emailData = {
@@ -44,7 +41,7 @@ const Contacto = () => {
           alert("Correo enviado con éxito!");
           console.log(result.text);
           // Limpia el formulario
-          setFormData({ name: '', phone: '', email: '', comment: '' });
+          setFormData({ name: "", phone: "", email: "", comment: "" });
         },
         (error) => {
           alert("Hubo un problema al enviar el correo. Intenta de nuevo.");
@@ -53,6 +50,14 @@ const Contacto = () => {
       );
     console.log("Formulario enviado", emailData);
   };
+
+  const handleFormConversion = () => {
+    window.gtag('event', 'conversion', {
+        send_to: 'AW-865325801/NEsiCKmJ0ewZEOmlz5wD',
+        event_label: 'Formulario',
+        value: 1, // Puedes ajustar el valor si es relevante
+    });
+};
 
   return (
     <div id="contact" className={styles.contacto_container}>
@@ -111,7 +116,7 @@ const Contacto = () => {
             />
           </div>
 
-          <button type="submit" className={styles.form_button}>
+          <button type="submit" onClick={handleFormConversion} className={styles.form_button}>
             Enviar
           </button>
         </form>

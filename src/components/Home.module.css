@@ -84,6 +84,25 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.btn2 {
+  margin-top: 1rem;
+  background-color: #0661bc; /* Azul oscuro */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #1277dc; /* Un tono más claro de azul para el efecto hover */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+}
+
+
 .btn:hover {
   background-color: #004080; /* Un tono más claro de azul para el efecto hover */
   transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
