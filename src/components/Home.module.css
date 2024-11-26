@@ -152,7 +152,7 @@
   }
 
   .boxes {
-    bottom: -10vh; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
+    bottom: -14vh; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
     width: 90vw;
     flex-wrap: wrap;
     gap: 1rem;
