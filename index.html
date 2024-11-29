@@ -15,7 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script
+    <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=AW-865325801"
     ></script>
@@ -26,6 +26,49 @@
       }
       gtag("js", new Date());
       gtag("config", "AW-865325801");
+    </script> -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-865325801"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+
+      gtag("config", "AW-865325801");
+    </script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", function (e) {
+        window.addEventListener("click", function (e) {
+          if (e.target.matches && e.target.closest('[href*="wa.me"]')) {
+            console.log("click Whatsapp");
+            gtag("event", "conversion", {
+              send_to: "AW-865325801/VBZLCKyJ0ewZEOmlz5wD",
+              event_callback: callback,
+            });
+          }
+        });
+      });
+    </script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", function (e) {
+        var form = document.querySelector("form");
+        form.addEventListener("submit", function (event) {
+          console.log("Formulario enviado");
+          gtag("event", "conversion", {
+            send_to: "AW-865325801/NEsiCKmJ0ewZEOmlz5wD",
+            event_callback: callback,
+          });
+        });
+      });
     </script>
     <style>
       .whatsapp-icon {
