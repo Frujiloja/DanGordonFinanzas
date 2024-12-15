@@ -58,8 +58,7 @@ const AcercaDeMi = () => {
             adaptan a sus necesidades individuales. <br />
             <br /> Cuento con un título de grado como licenciado en Finanzas,
             egresado de la Universidad Argentina de la Empresa (UADE). Además,
-            estoy finalizando mis estudios en la carrera de Economía, en la
-            misma Universidad. <br />
+            soy licenciado en Economía, egresado de la misma universidad. <br />
             <br /> Me apasiona enseñar para brindar al alumno las herramientas
             necesarias para aprender conceptos del área de Finanzas y Economía.
             Mis clases están diseñadas para ser interactivas y dinámicas,
