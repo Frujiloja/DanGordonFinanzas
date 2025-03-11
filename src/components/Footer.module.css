@@ -31,6 +31,13 @@
   margin: 0 0.5rem;
 }
 
+.link2{
+  font-size: 0.8rem;
+  color: rgb(174, 174, 174);
+  text-decoration: none;
+
+}
+
 .link:hover, .contact:hover {
   text-decoration: underline;
 }
