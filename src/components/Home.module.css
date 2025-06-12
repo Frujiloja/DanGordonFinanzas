@@ -91,7 +91,7 @@
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 26px;
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -164,5 +164,9 @@
 
   .btn {
     font-size: 10px;
+  }
+
+  .btn2 {
+    font-size: 16px;
   }
 }
