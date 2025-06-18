@@ -10,6 +10,7 @@ import res3 from "../assets/res3.jpg";
 import res4 from "../assets/res4.jpg";
 import res5 from "../assets/res5.jpg";
 import res6 from "../assets/res6.jpg";
+import res7 from "../assets/res7.jpg";
 import png1 from "../assets/1.png";
 import png2 from "../assets/2.png";
 
@@ -96,6 +97,9 @@ const AcercaDeMi = () => {
         </div>
         <div className={styles.hv}>
           <img src={res6} className={styles.res} alt="res6" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res7} className={styles.res} alt="res7" />
         </div>
       </Slider>
 
