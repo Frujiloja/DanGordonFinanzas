@@ -11,8 +11,16 @@ import res4 from "../assets/res4.jpg";
 import res5 from "../assets/res5.jpg";
 import res6 from "../assets/res6.jpg";
 import res7 from "../assets/res7.jpg";
+import res8 from "../assets/res8.jpg";
+import res9 from "../assets/res9.jpg";
+import res10 from "../assets/res10.jpg";
+import res11 from "../assets/res11.jpg";
+import res12 from "../assets/res12.jpg";
 import png1 from "../assets/1.png";
 import png2 from "../assets/2.png";
+import png3 from "../assets/3.png";
+import png4 from "../assets/4.png";
+
 
 const AcercaDeMi = () => {
   // Configuración para el slider de reseñas
@@ -101,6 +109,21 @@ const AcercaDeMi = () => {
         <div className={styles.hv}>
           <img src={res7} className={styles.res} alt="res7" />
         </div>
+        <div className={styles.hv}>
+          <img src={res8} className={styles.res} alt="res8" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res9} className={styles.res} alt="res9" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res10} className={styles.res} alt="res10" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res11} className={styles.res} alt="res11" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res12} className={styles.res} alt="res12" />
+        </div>
       </Slider>
 
       {/* Carrusel alternativo (visible solo en pantallas pequeñas) */}
@@ -110,6 +133,12 @@ const AcercaDeMi = () => {
         </div>
         <div className={styles.hv}>
           <img src={png2} className={styles.res} alt="png2" />
+        </div>
+        <div className={styles.hv}>
+          <img src={png3} className={styles.res} alt="png3" />
+        </div>
+        <div className={styles.hv}>
+          <img src={png4} className={styles.res} alt="png4" />
         </div>
       </Slider>
     </div>
