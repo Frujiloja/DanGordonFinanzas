@@ -52,7 +52,7 @@
 }
 
 .h22 {
-    font-size: clamp(10px, 2vh, 20px);
+    font-size: clamp(10px, 3vh, 23px);
     font-weight: 200;
 }
 

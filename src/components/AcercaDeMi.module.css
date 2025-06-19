@@ -26,7 +26,7 @@
   justify-content: center; /* Centra las imágenes horizontalmente */
   align-items: center; /* Centra las imágenes verticalmente si es necesario */
   height: auto;
-  width: 75%;
+  width: 85%;
   margin: 0 auto; /* Centra el carrusel en la página */
   object-fit: cover;
   border-radius: 5px;
@@ -39,7 +39,7 @@
   justify-content: center; /* Centra las imágenes horizontalmente */
   align-items: center; /* Centra las imágenes verticalmente si es necesario */
   height: auto;
-  width: 75%;
+  width: 85%;
   margin: 0 auto; /* Centra el carrusel en la página */
   object-fit: cover;
   border-radius: 5px;
@@ -55,7 +55,7 @@
 } */
 
 .res {
-  width: 23vw; /* Asegura que la imagen ocupe todo el espacio del contenedor */
+  width: 27vw; /* Asegura que la imagen ocupe todo el espacio del contenedor */
   border-radius: 5px;
 }
 
@@ -163,7 +163,7 @@
   }
 
   .res {
-    width: 96%;
+    width: 100%;
   }
 
   .p {
