@@ -179,6 +179,15 @@ const AcercaDeMi = () => {
         <div className={styles.hv}>
           <img src={png4} className={styles.res} alt="png4" />
         </div>
+        <div className={styles.hv}>
+          <img src={png5} className={styles.res} alt="png5" />
+        </div>
+        <div className={styles.hv}>
+          <img src={png6} className={styles.res} alt="png6" />
+        </div>
+        <div className={styles.hv}>
+          <img src={png7} className={styles.res} alt="png7" />
+        </div>
       </Slider>
     </div>
   );
