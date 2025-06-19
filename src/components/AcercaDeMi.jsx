@@ -16,10 +16,22 @@ import res9 from "../assets/res9.jpg";
 import res10 from "../assets/res10.jpg";
 import res11 from "../assets/res11.jpg";
 import res12 from "../assets/res12.jpg";
+import res13 from "../assets/res13.jpg";
+import res14 from "../assets/res14.jpg";
+import res15 from "../assets/res15.jpg";
+import res16 from "../assets/res16.jpg";
+import res17 from "../assets/res17.jpg";
+import res18 from "../assets/res18.jpg";
+import res19 from "../assets/res19.jpg";
+import res20 from "../assets/res20.jpg";
+import res21 from "../assets/res21.jpg";
 import png1 from "../assets/1.png";
 import png2 from "../assets/2.png";
 import png3 from "../assets/3.png";
 import png4 from "../assets/4.png";
+import png5 from "../assets/5.png";
+import png6 from "../assets/6.png";
+import png7 from "../assets/7.png";
 
 
 const AcercaDeMi = () => {
@@ -123,6 +135,33 @@ const AcercaDeMi = () => {
         </div>
         <div className={styles.hv}>
           <img src={res12} className={styles.res} alt="res12" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res13} className={styles.res} alt="res13" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res14} className={styles.res} alt="res14" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res15} className={styles.res} alt="res15" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res16} className={styles.res} alt="res16" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res17} className={styles.res} alt="res17" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res18} className={styles.res} alt="res18" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res19} className={styles.res} alt="res19" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res20} className={styles.res} alt="res20" />
+        </div>
+        <div className={styles.hv}>
+          <img src={res21} className={styles.res} alt="res21" />
         </div>
       </Slider>
 
