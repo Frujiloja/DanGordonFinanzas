@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 30vh;
   display: flex;
   flex-direction: column;
 }
@@ -159,7 +159,7 @@
 
   .acerca_container {
     height: auto;
-    margin-top: 15vh;
+    margin-top: 25vh;
   }
 
   .res {

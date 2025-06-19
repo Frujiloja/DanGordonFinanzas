@@ -68,7 +68,7 @@
   align-items: center; /* Alinear las cajas verticalmente */
   width: 70vw;
   position: absolute;
-  bottom: -140px; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
+  bottom: -160px; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -152,7 +152,7 @@
   }
 
   .boxes {
-    bottom: -14vh; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
+    bottom: -18vh; /* Posicionar .boxes a mitad fuera del contenedor .imgbg */
     width: 90vw;
     flex-wrap: wrap;
     gap: 1rem;
@@ -168,5 +168,6 @@
 
   .btn2 {
     font-size: 16px;
+    margin-bottom: 1vh;
   }
 }
