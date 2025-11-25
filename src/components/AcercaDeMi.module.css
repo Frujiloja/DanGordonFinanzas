@@ -105,6 +105,13 @@
 
 .p {
   font-size: 1vw;
+  margin-bottom: 1rem;
+
+}
+
+.p2 {
+  font-size: 1vw;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 800px) {

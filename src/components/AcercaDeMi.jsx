@@ -33,7 +33,6 @@ import png5 from "../assets/5.png";
 import png6 from "../assets/6.png";
 import png7 from "../assets/7.png";
 
-
 const AcercaDeMi = () => {
   // Configuración para el slider de reseñas
   const settingsResenas = {
@@ -79,7 +78,8 @@ const AcercaDeMi = () => {
             adaptan a sus necesidades individuales. <br />
             <br /> Cuento con un título de grado como licenciado en Finanzas,
             egresado de la Universidad Argentina de la Empresa (UADE). Además,
-            soy licenciado en Economía, egresado de la misma universidad (nota final de tesis: 10). <br />
+            soy licenciado en Economía, egresado de la misma universidad (nota
+            final de tesis: 10). <br />
             <br /> Me apasiona enseñar para brindar al alumno las herramientas
             necesarias para aprender conceptos del área de Finanzas y Economía.
             Mis clases están diseñadas para ser interactivas y dinámicas,
@@ -90,7 +90,12 @@ const AcercaDeMi = () => {
             <br /> Tengo experiencia dando clases a gran cantidad de alumnos, de
             muchas materias, niveles, universidades, etc. <br />
             <br /> Además, fui docente en la institución Capacitarte, en el
-            curso Valuación de proyectos.
+            curso Valuación de proyectos.<br />
+            Adicionalmente, cursé y aprobé los seminarios: <strong>“Gestión del Aula
+            Universitaria” “Estrategias de Enseñanza y Aprendizaje” “Evaluación
+            de los Aprendizajes” e “Innovación Educativa y Tecnología” </strong> 
+            pertenecientes al Programa de Escuela de Auxiliares Diplomados de
+            UADE (Edición 2025), con un total de 36 horas de formación.
           </p>
         </div>
         <div>
