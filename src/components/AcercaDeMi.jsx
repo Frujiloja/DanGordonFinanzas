@@ -90,9 +90,9 @@ const AcercaDeMi = () => {
             <br /> Tengo experiencia dando clases a gran cantidad de alumnos, de
             muchas materias, niveles, universidades, etc. <br />
             <br /> Además, fui docente en la institución Capacitarte, en el
-            curso Valuación de proyectos.<br />
+            curso Valuación de proyectos.<br /><br />
             Adicionalmente, cursé y aprobé los seminarios: <strong>“Gestión del Aula
-            Universitaria” “Estrategias de Enseñanza y Aprendizaje” “Evaluación
+            Universitaria”, “Estrategias de Enseñanza y Aprendizaje”, “Evaluación
             de los Aprendizajes” e “Innovación Educativa y Tecnología” </strong> 
             pertenecientes al Programa de Escuela de Auxiliares Diplomados de
             UADE (Edición 2025), con un total de 36 horas de formación.
