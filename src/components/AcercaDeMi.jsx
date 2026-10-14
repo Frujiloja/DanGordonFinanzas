@@ -98,7 +98,6 @@ const AcercaDeMi = () => {
             <br />
             1) Especialización y Certificación de Idoneidad Financiera de
             Invertir Online (+60 hs de formación):
-            <br />
             Módulos cursados: Operatoria integral en Bolsa (Bonos, Acciones y
             Opciones), Análisis Técnico y Fundamental avanzado, Contabilidad y
             NIIF, Normativa del mercado, Ética profesional y Finanzas
@@ -107,7 +106,6 @@ const AcercaDeMi = () => {
             <br />
             2) Programa de Escuela de Auxiliares Diplomados de UADE (Edición
             2025), 36 horas de formación.
-            <br />
             “Gestión del Aula Universitaria”, “Estrategias de Enseñanza y
             Aprendizaje”, “Evaluación de los Aprendizajes” e “Innovación
             Educativa y Tecnología”.
