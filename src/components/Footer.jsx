@@ -9,7 +9,7 @@ const Footer = () => {
     const message = `Hola, me interesa más información.`;
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
-      "_blank"
+      "_blank",
     );
   };
 
@@ -18,7 +18,7 @@ const Footer = () => {
       <div className={styles.container}>
         <p className={styles.text}>
           <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>
-          dangordon5@hotmail.com
+            dangordon5@hotmail.com
           </a>{" "}
           |{" "}
           <a
@@ -32,11 +32,36 @@ const Footer = () => {
           <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>
             Contacto
           </a>{" "}
+          |
+          <a
+            href="https://www.instagram.com/clases_de_finanzas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contact}
+          >
+            Instagram
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://share.google/WCtUfBH8lbgEBlfYn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contact}
+          >
+            Google
+          </a>
         </p>
       </div>
       <div className={styles.container}>
         <p className={styles.textv2}>
-          © 2025 Powered by <a href="https://www.ludden.com.ar" target="_blank" className={styles.link2}>Ludden</a>
+          © 2025 Powered by{" "}
+          <a
+            href="https://www.ludden.com.ar"
+            target="_blank"
+            className={styles.link2}
+          >
+            Ludden
+          </a>
         </p>
       </div>
     </footer>
