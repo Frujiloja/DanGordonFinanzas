@@ -1,6 +1,7 @@
 // src/Footer.jsx
 import React from "react";
 import styles from "./Footer.module.css";
+import { FaInstagram, FaGoogle } from "react-icons/fa";
 
 const Footer = () => {
   const phoneNumber = "5491152280786"; // Reemplaza con el número de teléfono real
@@ -32,25 +33,27 @@ const Footer = () => {
           <a href="mailto:dangordon5@hotmail.com" className={styles.contact}>
             Contacto
           </a>{" "}
-          |
-          <a
-            href="https://www.instagram.com/clases_de_finanzas"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.contact}
-          >
-            Instagram
-          </a>{" "}
-          |{" "}
-          <a
-            href="https://share.google/WCtUfBH8lbgEBlfYn"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.contact}
-          >
-            Google
-          </a>
         </p>
+      </div>
+      <div className={styles.socials}>
+        <a
+          href="https://www.instagram.com/clases_de_finanzas"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.socialLink}
+          aria-label="Instagram"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="https://share.google/WCtUfBH8lbgEBlfYn"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.socialLink}
+          aria-label="Google"
+        >
+          <FaGoogle />
+        </a>
       </div>
       <div className={styles.container}>
         <p className={styles.textv2}>

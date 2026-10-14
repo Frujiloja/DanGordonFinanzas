@@ -1,12 +1,29 @@
 .footer {
   background-color: #15173c; /* Fondo negro */
-  padding: 1rem;
+  padding: 1.25rem 1rem;
   text-align: center;
-  height: 5vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialLink {
+  color: #f1f1f1;
+  font-size: 1.35rem;
+  display: flex;
+  line-height: 1;
+}
+.socialLink:hover {
+  opacity: 0.8;
 }
 
 .container {
